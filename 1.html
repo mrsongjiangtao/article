@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <!-- import CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+</head>
+<body>
+  <div id="app" style="border-radius: 4px;box-shadow: 0 2px 4px rgba(0, 0, 0, .12), 0 0 6px rgba(0, 0, 0, .04);font-family: 'Hiragino Sans GB'">
+  	<el-container>
+	  <el-header style="text-align: center;background-color: #DCDFE6;line-height: 60px;"><span style="font-size: 30px;font-family: 微软雅黑;border-bottom: 3px;border-bottom-color: red;">文章标题</span></el-header>
+	  
+	  <el-main>文章内容</el-main>
+	  <el-footer><span style="float: right;"><el-avatar icon="el-icon-user-solid"></el-avatar><span style="position: relative;bottom: 10px;">高平五中 宋碧洋  131班</span></span></el-footer>
+	</el-container>
+  </div>
+</body>
+  <!-- import Vue before Element -->
+  <script src="https://unpkg.com/vue/dist/vue.js"></script>
+  <!-- import JavaScript -->
+  <script src="https://unpkg.com/element-ui/lib/index.js"></script>
+  <script>
+    new Vue({
+      el: '#app',
+      data: function() {
+        return {
+          
+        }
+      }
+    })
+  </script>
+</html>
